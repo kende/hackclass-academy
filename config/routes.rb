@@ -1,4 +1,4 @@
-Gitacademy::Application.routes.draw do
+Academy::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Gitacademy::Application.load_tasks
+Academy::Application.load_tasks
