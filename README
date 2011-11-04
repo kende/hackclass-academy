@@ -1,3 +1,33 @@
 == Welcome to the HackClass Academy
 
 A collection of repositories of open source code & challenges for developers interesting in improving our craft.
+
+== Overview
+
+# User collects a resource that is a repo they find useful for understanding good code
+
+# Learning resources (repos) are shared with the HackClass Academy community
+
+# Users in community can favorite these resources. 
+
+# The more favorites a resource has, the higher it ranks for overall usefulness in a list view (which is the primary way users find vetted repos)
+
+# Users can comment in three ways:
+
+## Users can share the type of comment where they are stating what they've learned from the resource
+
+## Users can share the type of comment where they are asking questions about code within the resource they don't understand
+
+## Users can comment in response to either prior type of comment, engaging in a conversation about what they've learned or what they don't yet understand
+
+# Users can +1 all types of comments.
+
+== That's it for MVP.
+
+== Future Roadmap
+
+# If there is traction, add a web based console where uses can execute the code from the repo + practice variations on the code right there on the site (within reason)
+
+== Message
+
+# It's saying "There is an oasis of knowledge here." and letting fellow devs, novice to pro, know about it. 
