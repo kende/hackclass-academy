@@ -13,10 +13,10 @@
     = f.label :email
     = f.text_field :email
   .field
-    = f.label :crypted_password
-    = f.text_field :crypted_password
+    = f.label :password
+    = f.password_field :password
   .field
-    = f.label :salt
-    = f.text_field :salt
+    = f.label :password_confirmation
+    = f.password_field :password_confirmation
   .actions
     = f.submit 'Save'

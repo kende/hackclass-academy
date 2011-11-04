@@ -6,12 +6,6 @@
 %p
   %b Email:
   = @person.email
-%p
-  %b Crypted password:
-  = @person.crypted_password
-%p
-  %b Salt:
-  = @person.salt
 
 = link_to 'Edit', edit_person_path(@person)
 \|

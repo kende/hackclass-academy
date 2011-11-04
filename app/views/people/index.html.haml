@@ -4,18 +4,10 @@
   %tr
     %th Username
     %th Email
-    %th Crypted password
-    %th Salt
-    %th
-    %th
-    %th
-
   - @people.each do |person|
     %tr
       %td= person.username
       %td= person.email
-      %td= person.crypted_password
-      %td= person.salt
       %td= link_to 'Show', person
       %td= link_to 'Edit', edit_person_path(person)
       %td= link_to 'Destroy', person, :confirm => 'Are you sure?', :method => :delete
