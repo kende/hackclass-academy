@@ -2,6 +2,8 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.1'
 
+gem 'thin'
+
 group :test, :development do
   gem 'sqlite3'
   gem 'mailcatcher'
