@@ -8,10 +8,10 @@
     %tr
       %td= person.username
       %td= person.email
-      %td= link_to 'Show', person
-      %td= link_to 'Edit', edit_person_path(person)
-      %td= link_to 'Destroy', person, :confirm => 'Are you sure?', :method => :delete
+      %td= safe_button_link_to 'Show', person
+      %td= safe_button_link_to 'Edit', edit_person_path(person)
+      %td= danger_button_link_to 'Destroy', person, :confirm => 'Are you sure?', :method => :delete
 
 %br
 
-= link_to 'New Person', new_person_path
+= button_link_to 'New Person', new_person_path

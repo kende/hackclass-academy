@@ -2,6 +2,6 @@
 
 = render 'form'
 
-= link_to 'Show', @person
+= safe_button_link_to 'Show', @person
 \|
-= link_to 'Back', people_path
+= button_link_to 'Back', people_path

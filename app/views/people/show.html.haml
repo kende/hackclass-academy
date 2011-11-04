@@ -7,6 +7,6 @@
   %b Email:
   = @person.email
 
-= link_to 'Edit', edit_person_path(@person)
+= safe_button_link_to 'Edit', edit_person_path(@person)
 \|
-= link_to 'Back', people_path
+= button_link_to 'Back', people_path
